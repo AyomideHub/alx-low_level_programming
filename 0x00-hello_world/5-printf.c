@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main- function- program to print without using puts
- * Return 0 success
+ * Main: task 5
+ * Description: function program to print without using puts
+ * Return: always 0 success
  */
 	int main(void)
 {

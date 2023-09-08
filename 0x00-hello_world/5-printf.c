@@ -2,7 +2,7 @@
 
 /**
  * Main- function- program to print without using puts
- * Return (0) success
+ * Return 0 success
  */
 	int main(void)
 {

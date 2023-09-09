@@ -22,13 +22,13 @@ int main(void)
             putchar(i);
             i++;
         }
-        putchar('\n');
         while
                 (x <= 'Z')
         {
             putchar(x);
             x++;
         }
+	putchar('\n');
         return (0);
 }
 

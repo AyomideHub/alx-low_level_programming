@@ -2,7 +2,7 @@
 #define main_h
 
 
-_putchar(char c)
+int _putchar(char c);
 
 
 

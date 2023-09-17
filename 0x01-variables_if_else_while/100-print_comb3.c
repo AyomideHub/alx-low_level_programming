@@ -14,14 +14,12 @@ int main(void)
 	{
 		for (j = 1; j < 10; j++)
 		{
-			_putchar(i + '0');
-			_putchar(j + '0');
+			putchar(i + '0');
+			putchar(j + '0');
+			putchar(',');
+			putchar(' ');
 		}
 
 	}
-
-
-
-
-
+	return (0);
 }

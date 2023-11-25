@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	Ptr = malloc(sizeof(char) * (str1len + n) + 1);
 
-	if (malloc == NULL)
+	if (Ptr == NULL)
 		return (NULL);
 
 	for (i = 0; Ptr[i] != '\0'; i++)

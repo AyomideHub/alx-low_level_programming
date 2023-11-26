@@ -2,12 +2,12 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
- *  *string_nconcat - function to concantenate two strings
- *  @s1: paramater
- *  @s2: parameter
- *  @n: parameter
- *  Return: pointer to the new memory created
+/**
+ * *string_nconcat - function to concantenate two strings
+ * @s1: paramater
+ * @s2: parameter
+ * @n: parameter
+ * Return: pointer to the new memory created
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -25,7 +25,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (i = 0; s2[i] != '\0'; i++)
 		str2len++;
 
-	Ptr = malloc(sizeof(char) * (str1len + n) + 1);
+	int size = (str1len + n) + 1;
+
+	Ptr = malloc(sizeof(char) * size);
 	if (Ptr == NULL)
 		return (NULL);
 	for (i = 0; Ptr[i] != '\0'; i++)
